@@ -199,6 +199,8 @@ docker-compose -p ntt-live up -d
 db/import.sh -d ntt-live_db_1
 ```
 
+Note we had to re-import our database as we were starting a new container.
+
 Of course, deploying and running containerised applications at scale requires more than a simple configuration, this is
 where Container Orchestrators like Kubernetes come to play...for that we have part 2.
 
