@@ -99,7 +99,7 @@ When you are done simply type `exit` to return back to your host.
 
 You may have already seen, but if you pop out the menu in the top left of the webpage there is a Pokémon App which
 loads a different page.  This is the HTML frontend that will connect to our API application.  If you look in the
-[web/content/js/pokemon.js](web/content/pokemon.js) file you will see it is connecting to `/app/pokemon` as the
+[web/content/js/pokemon.js](web/content/js/pokemon.js) file you will see it is connecting to `/app/pokemon` as the
 endpoint.  However right now we have two challenges, first we don't have our app running, second, we need to route
 requests to it.
 
