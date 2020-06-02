@@ -2,7 +2,7 @@
 
 - [Instructions for Part 1 of the NTT Live Containers session](#instructions-for-part-1-of-the-ntt-live-containers-session)
     - [Prerequisites](#prerequisites)
-  - [Starting our first container - NGINX](#starting-our-first-container---nginx)
+  - [Starting our first container](#starting-our-first-container)
   - [Adding our API application](#adding-our-api-application)
   - [Adding our database backend](#adding-our-database-backend)
   - [Stitching it all together](#stitching-it-all-together)
@@ -44,7 +44,7 @@ Note that the instructions below assume you are using Docker Desktop, the only c
 'Play with Docker' is any time we are referencing `http://localhost:8080` you will need to click the `8080` link next
 to the 'Open Port' button in the 'Play with Docker' interface.
 
-## Starting our first container - NGINX
+## Starting our first container
 
 1. If you look in [this directory](web/content) you will see we have some simple static web content with some html, js
 and css files.  Our first task is to deploy a simple webserver to serve these.  We can do this using the public NGINX
