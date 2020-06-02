@@ -69,7 +69,8 @@ You can also see the image that was downloaded with:
 docker image list
 ```
 
-2. You can see in the original command we are using the `-v` flag to mount a local directory where the content is stored, experiment with changing some of the HTML directly in the content and see how that reflects instantly.
+2. You can see in the original command we are using the `-v` flag to mount a local directory where the content is
+stored, experiment with changing some of the HTML directly in the content and see how that reflects instantly.
 
 
 3. Another option is to copy the content into the image by building our own, let's try this, first we need to remove
@@ -199,7 +200,8 @@ out of the box, but this could be a future enhancement.
 ## Stitching it all together
 
 So far we have learnt a lot about how Docker containers are constructed and built, but running each of these by hand
-is quite cumbersome.  Thankfully there is a way to group these together into a single configuration known as 'docker-compose', examine the `docker-compose.yml` file.  We can swap our manually deployed containers with a simple
+is quite cumbersome.  Thankfully there is a way to group these together into a single configuration known as
+'docker-compose', examine the `docker-compose.yml` file.  We can swap our manually deployed containers with a simple
 couple of commands, `cd ..` back to the `part1` directory then run:
 
 ```
