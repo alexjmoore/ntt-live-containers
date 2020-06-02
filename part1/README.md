@@ -1,5 +1,13 @@
 # Instructions for Part 1 of the NTT Live Containers session
 
+- [Instructions for Part 1 of the NTT Live Containers session](#instructions-for-part-1-of-the-ntt-live-containers-session)
+    - [Prerequisites](#prerequisites)
+  - [Starting our first container - NGINX](#starting-our-first-container---nginx)
+  - [Adding our API application](#adding-our-api-application)
+  - [Adding our database backend](#adding-our-database-backend)
+  - [Stitching it all together](#stitching-it-all-together)
+  - [Clean up](#clean-up)
+
 These are the core instructions to walk through the introduction, there is a separate PowerPoint with more context.
 The instructions here are more the steps to carry out with a brief explanation, they are not a full substitute for
 the full session itself where we go into more details around the underlying technology.
@@ -27,13 +35,14 @@ In both cases you'll need to clone this repository with:
 git clone https://github.com/alexjmoore/ntt-live-containers.git
 ```
 
-Git is available automatically on Play with Docker, but you may need to install git see:
+Git is built in to Play with Docker, but you may need to install git on your client if you are using DockerDesktop, you
+can find it here:
 
 * [https://git-scm.com/download/](https://git-scm.com/download/)
 
-Note the instructions below assume you are using Docker Desktop, the only change iff you are using 'Play with Docker'
-is any time we are referencing `http://localhost:8080` you will need to click the `8080` link next to the 'Open Port'
-button in the 'Play with Docker' interface.
+Note that the instructions below assume you are using Docker Desktop, the only change if you are using
+'Play with Docker' is any time we are referencing `http://localhost:8080` you will need to click the `8080` link next
+to the 'Open Port' button in the 'Play with Docker' interface.
 
 ## Starting our first container - NGINX
 
