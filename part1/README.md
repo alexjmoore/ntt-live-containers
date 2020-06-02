@@ -18,6 +18,10 @@ Today we're going to explore use of containers and Docker to deploy a very simpl
 * Go based API application mid-tier
 * MongoDB based database backend
 
+Overall the architecture will look like this:
+
+![app architecture](app-architecture.jpg "App Architecture")
+
 ### Prerequisites
 
 Almost nothing really, in order to follow along you can either install Docker Desktop on your client locally by going
